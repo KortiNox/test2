@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: rgb(32, 31, 31);
+}
+
+.threejs {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90%;
+}
+
+.text {
+  position: absolute; /* Теперь абсолютное позиционирование */
+  left: 730px;
+  top: 630px;
+  color: rgb(227, 178, 178);
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.text2 {
+  position: absolute; /* Теперь абсолютное позиционирование */
+  left: 730px;
+  top: 1030px;
+  color: rgb(227, 178, 178);
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.text3 {
+  position: absolute; /* Теперь абсолютное позиционирование */
+  left: 630px;
+  top: 1530px;
+  color: rgb(227, 178, 178);
+  font-weight: 700;
+  font-size: 48px;
+}
